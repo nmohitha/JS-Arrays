@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sort</title>
+	<link rel="stylesheet" type="text/css" href="Array.css">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<h1 class="heading">Arrays</h1>
+	<h1 class="aa">sort()</h1>
+<div>
+<div class="alltags">
+	<a href="Arrays.html"><button class="button">Array()</button></a><br><br>
+	<a href="push.html"><button class="button">Push()</button></a><br><br>
+	<a href="pop.html"><button class="button">Pop()</button></a><br><br>
+	<a href="shift.html"><button class="button">Shift()</button></a><br><br>
+	<a href="unshift.html"><button class="button">Unshift()</button></a><br><br>
+	<a href="concat.html"><button class="button">Concat()</button></a><br><br>
+	<a href="slice.html"><button class="button">Slice()</button></a><br><br>
+	<a href="splice.html"><button class="button">Splice()</button></a><br><br>
+	<a href="foreach.html"><button class="button">forEach()</button></a><br><br>
+	<a href="join.html"><button class="button">join()</button></a><br><br>
+	<a href="sort.html"><button class="button">Sort()</button></a><br><br>
+	<a href="tostring.html"><button class="button">toString()</button></a><br><br>
+	<a href="reduce.html"><button class="button">reduce()</button></a><br><br>
+	<a href="indexof.html"><button class="button">indexOf()</button></a><br><br>
+	<a href="filter.html"><button class="button">filter()</button></a><br><br>
+</div>
+<div class="maincontent">
+	<div class="defclas">
+		<p>The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.<br>
+		The time and space complexity of the sort cannot be guaranteed as it depends on the implementation.</p>
+	</div>
+	<p class="descls"><i>Description</i></p>
+	<p class="parafonsize">
+		If compareFunction is not supplied, all non-undefined array elements are sorted by converting them to strings and comparing strings in UTF-16 code units order. For example, "banana" comes before "cherry". In a numeric sort, 9 comes before 80, but because numbers are converted to strings, "80" comes before "9" in the Unicode order. All undefined elements are sorted to the end of the array.
+	</p>
+	<p class="eg"><i>For Example:</i></p>
+	<div class="foreg">
+		<p class="parafonsize">var num=[10,20,4,15,1];<br><br>var nu=num.sort();<br><br>document.write(num);</p>
+	</div>
+	<button class="buttonR" onclick="myfunction()">Try</button>
+	<p id="arra"></p>
+	<script type="text/javascript">
+		 function myfunction(){
+		var num=[10,20,4,15,1];
+		var nu=num.sort();
+		document.getElementById('arra').innerHTML=num;
+	}
+	</script>
+	
+</div>
+</div>
+</body>
+</html>

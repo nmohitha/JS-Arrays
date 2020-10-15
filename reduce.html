@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reduce</title>
+	<link rel="stylesheet" type="text/css" href="Array.css">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<h1 class="heading">Arrays</h1>
+	<h1 class="aa">reduce()</h1>
+<div>
+<div class="alltags">
+	<a href="Arrays.html"><button class="button">Array()</button></a><br><br>
+	<a href="push.html"><button class="button">Push()</button></a><br><br>
+	<a href="pop.html"><button class="button">Pop()</button></a><br><br>
+	<a href="shift.html"><button class="button">Shift()</button></a><br><br>
+	<a href="unshift.html"><button class="button">Unshift()</button></a><br><br>
+	<a href="concat.html"><button class="button">Concat()</button></a><br><br>
+	<a href="slice.html"><button class="button">Slice()</button></a><br><br>
+	<a href="splice.html"><button class="button">Splice()</button></a><br><br>
+	<a href="foreach.html"><button class="button">forEach()</button></a><br><br>
+	<a href="join.html"><button class="button">join()</button></a><br><br>
+	<a href="sort.html"><button class="button">Sort()</button></a><br><br>
+	<a href="tostring.html"><button class="button">toString()</button></a><br><br>
+	<a href="reduce.html"><button class="button">reduce()</button></a><br><br>
+	<a href="indexof.html"><button class="button">indexOf()</button></a><br><br>
+	<a href="filter.html"><button class="button">filter()</button></a><br><br>
+</div>
+<div class="maincontent">
+	<div class="defclas">
+		<p>The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.</p>
+	</div>
+	<p class="descls"><i>Description</i></p>
+	<p class="parafonsize">
+		The reduce() method executes the callback once for each assigned value present in the array, taking four arguments:
+		<br>
+		1.accumulator
+		2.currentValue<br>
+		3.currentIndex
+		4.array<br><br>
+	The first time the callback is called, accumulator and currentValue can be one of two values. If initialValue is provided in the call to reduce()
+	</p>
+	<p class="eg"><i>For Example:</i></p>
+	<div class="foreg">
+		<p class="parafonsize">var numbers = [176,66,12,10];<br><br>document.getElementById("arra").innerHTML = numbers.reduce(myjunc);<br><br>function myjunc(total, num)<br> {<br>return total - num;<br>}</p>
+	</div>
+	<button class="buttonR" onclick="myfunction()">Try</button>
+	<p id="arra"></p>
+	<script type="text/javascript">
+		 function myfunction(){
+		var numbers = [176,66,12,10];
+		document.getElementById("arra").innerHTML = numbers.reduce(myjunc);
+		function myjunc(total, num) {
+			return total - num;
+		}
+		
+	}
+	</script>
+	
+</div>
+</div>
+</body>
+</html>

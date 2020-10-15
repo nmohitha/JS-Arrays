@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>indexof</title>
+	<link rel="stylesheet" type="text/css" href="Array.css">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<h1 class="heading">Arrays</h1>
+	<h1 class="aa">indexOf()</h1>
+<div>
+<div class="alltags">
+	<a href="Arrays.html"><button class="button">Array()</button></a><br><br>
+	<a href="push.html"><button class="button">Push()</button></a><br><br>
+	<a href="pop.html"><button class="button">Pop()</button></a><br><br>
+	<a href="shift.html"><button class="button">Shift()</button></a><br><br>
+	<a href="unshift.html"><button class="button">Unshift()</button></a><br><br>
+	<a href="concat.html"><button class="button">Concat()</button></a><br><br>
+	<a href="slice.html"><button class="button">Slice()</button></a><br><br>
+	<a href="splice.html"><button class="button">Splice()</button></a><br><br>
+	<a href="foreach.html"><button class="button">forEach()</button></a><br><br>
+	<a href="join.html"><button class="button">join()</button></a><br><br>
+	<a href="sort.html"><button class="button">Sort()</button></a><br><br>
+	<a href="tostring.html"><button class="button">toString()</button></a><br><br>
+	<a href="reduce.html"><button class="button">reduce()</button></a><br><br>
+	<a href="indexof.html"><button class="button">indexOf()</button></a><br><br>
+	<a href="filter.html"><button class="button">filter()</button></a><br><br>
+</div>
+<div class="maincontent">
+	<div class="defclas">
+		<p>The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.</p>
+	</div>
+	<p class="descls"><i>Description</i></p>
+	<p class="parafonsize">
+		indexOf() compares searchElement to elements of the Array using strict equality (the same method used by the === or triple-equals operator).
+	</p>
+	<p class="eg"><i>For Example:</i></p>
+	<div class="foreg">
+		<p class="parafonsize">var beasts = ["ant", "bison","camel","duck","bear"];<br><br>document.write(beasts.indexOf('camel');<br><br>document.write(beasts.indeOf('donkey'));</p>
+	</div>
+	<button class="buttonR" onclick="myfunction()">Try</button>
+	<p id="arra"></p>
+	<p id="arra1"></p>
+	<script type="text/javascript">
+		 function myfunction(){
+		 	var beasts = ["ant", "bison","camel","duck","bear"];
+		
+			document.getElementById('arra').innerHTML=beasts.indexOf('camel');
+			document.getElementById('arra1').innerHTML=beasts.indexOf('donkey');
+	
+	}
+	</script>
+	
+</div>
+</div>
+</body>
+</html>

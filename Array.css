@@ -1,0 +1,95 @@
+
+.heading {
+  	background: #023d6d;
+  	color: white;
+  	padding: 17px;
+ 	text-align: center;
+  	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  	width: 100%;
+  	margin-block-start: -4px;
+}
+.alltags{
+	padding-left: 20px;
+	width: 170px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button{
+	border: none;
+	background-color: white;
+	color: #023d6d;
+	font-size: 25px;
+}
+.maincontent{
+	margin-left: 220px;
+	margin-top: -720px;
+	font-size: 25px;
+	padding-right: 160px;
+}
+.parafonsize{
+	font-size: 20px;
+
+}
+.aa{
+	font-size: 40px
+}
+.foreg{
+	padding-left: 10px;
+	background-color:#e0e0e0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.defclas{
+	padding-left: 10px;
+	font-style: oblique;
+	background-color: #eeeeee;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buttonR{
+		height: 40px;
+		width:80px;
+		color: white;
+		background-color:#023d6d ;
+		border-radius: 3px 6px;
+		border: none;
+		font-size: 22px;
+}
+.descls{
+	font-size: 40px;
+	color: #023d6d ;
+}
+.eg{
+	font-size: 35px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+	.heading{
+		padding: 10px;
+		width:95%;
+	}
+	.aa{
+		font-size:30px; 
+	}
+	.alltags{
+		padding-left:7px;
+		width:80px;
+	}
+	.button{
+		font-size:17px;
+	}
+	.maincontent{
+		margin-left:95px;
+		margin-top: -600px;
+		font-size: 20px;
+		padding-right: 10px;
+	}
+	.descls{
+		font-size:27px;
+	}
+	.parafonsize{
+	font-size: 15px;
+	}
+	.eg{
+		font-size:23px;
+	}
+}
+
+

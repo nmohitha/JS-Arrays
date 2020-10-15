@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slice</title>
+	<link rel="stylesheet" type="text/css" href="Array.css">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<h1 class="heading">Arrays</h1>
+	<h1 class="aa">slice()</h1>
+<div>
+<div class="alltags">
+	<a href="Arrays.html"><button class="button">Array()</button></a><br><br>
+	<a href="push.html"><button class="button">Push()</button></a><br><br>
+	<a href="pop.html"><button class="button">Pop()</button></a><br><br>
+	<a href="shift.html"><button class="button">Shift()</button></a><br><br>
+	<a href="unshift.html"><button class="button">Unshift()</button></a><br><br>
+	<a href="concat.html"><button class="button">Concat()</button></a><br><br>
+	<a href="slice.html"><button class="button">Slice()</button></a><br><br>
+	<a href="splice.html"><button class="button">Splice()</button></a><br><br>
+	<a href="foreach.html"><button class="button">forEach()</button></a><br><br>
+	<a href="join.html"><button class="button">join()</button></a><br><br>
+	<a href="sort.html"><button class="button">Sort()</button></a><br><br>
+	<a href="tostring.html"><button class="button">toString()</button></a><br><br>
+	<a href="reduce.html"><button class="button">reduce()</button></a><br><br>
+	<a href="indexof.html"><button class="button">indexOf()</button></a><br><br>
+	<a href="filter.html"><button class="button">filter()</button></a><br><br>
+</div>
+<div class="maincontent">
+	<div class="defclas">
+		<p>The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.</p>
+	</div>
+	<p class="descls"><i>Description</i></p>
+	<p class="parafonsize">
+		slice does not alter the original array. It returns a shallow copy of elements from the original array. Elements of the original array are copied into the returned array as follows:<br><br>
+		For strings, numbers and booleans (not String, Number and Boolean objects), slice copies the values into the new array. Changes to the string, number, or boolean in one array do not affect the other array.
+	</p>
+	<p class="eg"><i>For Example:</i></p>
+	<div class="foreg">
+		<p class="parafonsize">var animals = ["ant","bison","camel","duck","elephant"];<br><br>document.write(animals.slice(2));<br><br>document.write(animals.slice(2, 4));<br><br>document.write(animals.slice(1, 5));</p>
+	</div>
+	<button class="buttonR" onclick="myfunction()">Try</button>
+	<p id="arra"></p>
+	<p id="arra1"></p>
+	<p id="arra2"></p>
+	<script type="text/javascript">
+		 function myfunction(){
+		var animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+		document.getElementById('arra').innerHTML=animals.slice(2);
+		document.getElementById('arra1').innerHTML=animals.slice(2,4);
+		document.getElementById('arra2').innerHTML=animals.slice(1,5);
+	}
+	</script>
+	
+</div>
+</div>
+</body>
+</html>

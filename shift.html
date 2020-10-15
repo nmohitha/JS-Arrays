@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shift</title>
+	<link rel="stylesheet" type="text/css" href="Array.css">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<h1 class="heading">Arrays</h1>
+	<h1 class="aa">shift()</h1>
+<div>
+<div class="alltags">
+	<a href="Arrays.html"><button class="button">Array()</button></a><br><br>
+	<a href="push.html"><button class="button">Push()</button></a><br><br>
+	<a href="pop.html"><button class="button">Pop()</button></a><br><br>
+	<a href="shift.html"><button class="button">Shift()</button></a><br><br>
+	<a href="unshift.html"><button class="button">Unshift()</button></a><br><br>
+	<a href="concat.html"><button class="button">Concat()</button></a><br><br>
+	<a href="slice.html"><button class="button">Slice()</button></a><br><br>
+	<a href="splice.html"><button class="button">Splice()</button></a><br><br>
+	<a href="foreach.html"><button class="button">forEach()</button></a><br><br>
+	<a href="join.html"><button class="button">join()</button></a><br><br>
+	<a href="sort.html"><button class="button">Sort()</button></a><br><br>
+	<a href="tostring.html"><button class="button">toString()</button></a><br><br>
+	<a href="reduce.html"><button class="button">reduce()</button></a><br><br>
+	<a href="indexof.html"><button class="button">indexOf()</button></a><br><br>
+	<a href="filter.html"><button class="button">filter()</button></a><br><br>
+</div>
+<div class="maincontent">
+	<div class="defclas">
+		<p>The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.</p>
+	</div>
+	<p class="descls"><i>Description</i></p>
+	<p class="parafonsize">
+		The shift method removes the element at the zeroeth index and shifts the values at consecutive indexes down, then returns the removed value. If the length property is 0, undefined is returned.<br><br>
+		shift is intentionally generic; this method can be called or applied to objects resembling arrays. Objects which do not contain a length property reflecting the last in a series of consecutive, zero-based numerical properties may not behave in any meaningful manner.
+	</p>
+	<p class="eg"><i>For Example:</i></p>
+	<div class="foreg">
+		<p class="parafonsize">var class=["Benches","chalk","students","Teacher"];;<br><br>var cla=class.shift()<br><br>document.write(class);</p>
+	</div>
+	<button class="buttonR" onclick="myfunction()">Try</button>
+	<p id="arra"></p>
+	<script type="text/javascript">
+		 function myfunction(){
+		var clas=["Benches","chalk","students","Teacher"];
+		var flo=clas.shift();
+		document.getElementById('arra').innerHTML=clas;
+	}
+	</script>
+	
+</div>
+</div>
+</body>
+</html>

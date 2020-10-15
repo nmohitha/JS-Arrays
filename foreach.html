@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ForEach</title>
+	<link rel="stylesheet" type="text/css" href="Array.css">
+	<meta  name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<h1 class="heading">Arrays</h1>
+	<h1 class="aa">foreach()</h1>
+<div>
+<div class="alltags">
+	<a href="Arrays.html"><button class="button">Array()</button></a><br><br>
+	<a href="push.html"><button class="button">Push()</button></a><br><br>
+	<a href="pop.html"><button class="button">Pop()</button></a><br><br>
+	<a href="shift.html"><button class="button">Shift()</button></a><br><br>
+	<a href="unshift.html"><button class="button">Unshift()</button></a><br><br>
+	<a href="concat.html"><button class="button">Concat()</button></a><br><br>
+	<a href="slice.html"><button class="button">Slice()</button></a><br><br>
+	<a href="splice.html"><button class="button">Splice()</button></a><br><br>
+	<a href="foreach.html"><button class="button">forEach()</button></a><br><br>
+	<a href="join.html"><button class="button">join()</button></a><br><br>
+	<a href="sort.html"><button class="button">Sort()</button></a><br><br>
+	<a href="tostring.html"><button class="button">toString()</button></a><br><br>
+	<a href="reduce.html"><button class="button">reduce()</button></a><br><br>
+	<a href="indexof.html"><button class="button">indexOf()</button></a><br><br>
+	<a href="filter.html"><button class="button">filter()</button></a><br><br>
+</div>
+<div class="maincontent">
+	<div class="defclas">
+		<p>The forEach() method executes a provided function once for each array element.</p>
+	</div>
+	<p class="descls"><i>Description</i></p>
+	<p class="parafonsize">
+		forEach() calls a provided callback function once for each element in an array in ascending order. It is not invoked for index properties that have been deleted or are uninitialized.<br>
+
+		callback is invoked with three arguments:<br>
+
+		1.the value of the element<br>
+		2.the index of the element<br>
+		3.the Array object being traversed
+	</p>
+	<p class="eg"><i>For Example:</i></h3>
+		<div class="foreg">
+			<p class="parafonsize">var kids=["Ammulu","box","Cow","Dance"];<br><br>kids.forEach( myjun);<br><br>function myjun(item , index)<br>{<br>document.getElementById('ar').innerHTML+= index + ":" + item ; <br>}
+		</p>
+	</div>
+	<button class="buttonR" onclick="myfunction()">Try</button>
+	<p id="ar"></p>
+	<script type="text/javascript">
+		 function myfunction(){
+		var kids=["Ammulu","box","Cow","Dance"];
+		kids.forEach( myjun);
+		function myjun(item , index){
+
+			document.getElementById('ar').innerHTML+= index + ":" + item + "<br>";
+		}
+	}
+	</script>
+	
+</div>
+</div>
+</body>
+</html>
