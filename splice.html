@@ -36,17 +36,17 @@
 	</p>
 	<p class="eg"><i>For Example:</i></p>
 	<div class="foreg">
-		<p class="code">var months=["Janauary","July","May","August","April"];<br><br>var mon=months.splice(1,0,'February');<br><br>document.write(months);<br><br>var mont=months.splice(4,1,'March');<br><br>document.write(months);</p>
+		<p class="code">var months=["July","may","April"];<br><br>var mon=months.splice(1,0,'February');<br><br>document.write(months);<br><br>var mont=months.splice(4,1,'March');<br><br>document.write(months);</p>
 	</div>
 	<button class="buttonR" onclick="myfunction()">Try</button>
 	<p id="arra"></p>
 	<p id="arra1"></p>
 	<script type="text/javascript">
 		 function myfunction(){
-		var months=["Janauary","July","May","August","April"];
-		var mon=months.splice(1,0,'February');
+		var months=["July","may","April"];
+		var mon=months.splice(1,0,'june');
 		document.getElementById('arra').innerHTML=months;
-		var mont=months.splice(4,1,'March');
+		var mont=months.splice(2,1,'March');
 		document.getElementById('arra1').innerHTML=months;
 	}
 	</script>
